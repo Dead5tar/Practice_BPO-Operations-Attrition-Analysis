@@ -13,3 +13,7 @@ El modelo relacional consta de dos tablas principales:
 ### A Consultas SQL Clave y Hallazgos
 1. Identificación de Tiempos Muertos por Campaña
 Evaluamos el promedio de tiempo muerto para detectar desequilibrios en la asignación de turnos y personal.
+```sql
+SELECT campaign_id, AVG(idle_time_minutes) AS promedio_tiempo_muerto
+FROM daily_metrics
+GROUP BY campaign_id;
