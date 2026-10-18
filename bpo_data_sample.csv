@@ -1,0 +1,5 @@
+agent_id,campaign_id,idle_time_minutes,aht_seconds,resigned
+1,Ventas_US,12,320,No
+2,Soporte_Nocturno,48,410,Sí
+3,Ventas_US,15,290,No
+4,Soporte_Nocturno,52,450,Sí
